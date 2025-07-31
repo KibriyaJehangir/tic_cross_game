@@ -63,7 +63,8 @@ while(1){
  
 //  taking input from user
 while(1){
- printf("enter you enput enter the index where you want to add tick");
+ printf("enter your input,enter the index where you want to add tick");
+ printf("enter the index from 0 to 8");
   
  scanf("%d",&user_input);
  if (TK_list[user_input]==' '){
